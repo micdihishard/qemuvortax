@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       system_choice:
-        description: 'Choose a ready system (mint, pear, bazite, kali, bliss_free, bliss_gapps, neon, deepin, garuda_mokka, ubuntu, popos, debian_qcow2, centos_qcow2, kali_qcow2)'
+        description: 'Choose a ready system (mint, pear, bazite, kali, bliss_free, bliss_gapps, neon, deepin, garuda_mokka, ubuntu, popos, manjaro, cutefish, debian_qcow2, centos_qcow2, kali_qcow2)'
         required: false
         default: ''
       boot_mode:
